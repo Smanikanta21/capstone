@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ecf6fe;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #440a8f;
+}
+.logo {
+  font-family: "Syne", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #381664;
+  margin-left: 30px;
+}
+.nav a {
+  text-decoration: none;
+  color: #381664;
+  font-family: Syne;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 32px;
+}
+.nav {
+  padding: 32px;
+}
+.container {
+  margin: 0 30px;
+}
+.landing-page1 {
+  margin: 80px;
+  margin-bottom: 50px;
+}
+.landing-page2 {
+  margin-bottom: 20px;
+}
+.title {
+  font-family: "Syne", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 120px;
+  margin-bottom: 60px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #381664;
+  padding: 0 260px;
+}
+img {
+  width: 100%;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.pt {
+  margin-top: 10px;
+}
+.project {
+  margin-bottom: 40px;
+}
+.pt {
+  margin-top: 2px;
+}
+.uppertext {
+  font-family: "Familjen Grotesk", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #381664;
+}
+.lowertext {
+  font-family: "Familjen Grotesk", serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #381664;
+}
+.landing-page3 {
+  padding: 96px;
+}
+.pas {
+  font-family: "Syne" sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #381664;
+  padding: 0 420px;
+}
+.landing-page4 {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.lp1 {
+  font-family: "Syne" sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #381664;
+}
+.lp2 {
+  font-family: "Familjen Grotesk", serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #381664;
+}
+.footer {
+  padding-top: 80px;
+}
+.footer-container {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.ftext {
+  font-family: "Syne", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #381664;
+}
+
+.button {
+  color: #440a8f;
+  border-radius: 8px;
+  padding: 12px 24px;
+  border-top: 1px solid #440a8f;
+}
+
+@media screen and (max-width: 480px) {
+  .nav{
+    display: none;
+    padding: 3rem 0;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  .title{
+    font-size: 3rem;
+    line-height: 3.4rem;
+    padding: 0;
+  }
+  .landing-page1{
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .row{
+    grid-template-columns: 1fr;
+  }
+  .landing-page3{
+    padding: 3rem;
+  }
+  .pas{
+    line-height: 2rem;
+    font-size: 1.25rem;
+    padding: 0rem 0rem ;
+  }
+  .landing-page4{
+    flex-direction: column;
+  }
+}
+@media (max-width:1024px){
+  .lp1{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  .lp2{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2.5rem;
+  }
+  .landing-page4{
+    flex-direction: column;
+  }
+
+}
